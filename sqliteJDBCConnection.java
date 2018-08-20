@@ -19,6 +19,8 @@ public class sqliteJDBCConnection {
 	}
 	
 	// get price, rating and image src based on the restaurant name and food name
+	// Each entry in the image column is the name of the image of the corresponding food in the images folder
+	// price and rating would be -1 if they are no corresponding data
 	@SuppressWarnings("finally")
 	public List<String> fetchData(String restaurant, String food) {
 		List<String> res = new ArrayList<String>();

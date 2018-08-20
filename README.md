@@ -1,1 +1,1 @@
-# reality_lab
+This version uses sqlite3 table to store information. Add sqlite-jdbc-3.23.1.jar to the classpath in order to run JDBC, and then fetch the data from the food table.
